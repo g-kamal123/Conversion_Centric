@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+body{
+  overflow-x: hidden;
+}
+.one{
+  padding-top:1%;
+  color:white;
+  background-color:#62A845;
+}
+.undraw{
+  position: absolute;
+  height: 18rem;
+  width: 20rem;
+  z-index: 0;
+  top: 2%;
+  right: -5%;
+  /* overflow-x: hidden; */
+}
+.one .ff{
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.one .ff div{
+  z-index: 1;
+  position: relative;
+  font-size: 2vw;
+  width:40%;
+}
+.one .ff .form{
+  width:90%;
+  background-color: #67C040;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+}
+.one .form p{
+  padding: 0%;
+  margin: 0%;
+}
+.one input{
+  width:100%;
+  border:none;
+  outline:none;
+  padding: 1vw;
+  border-radius: 5px;
+}
+.one .para{
+  display:grid;
+  grid-template-columns:5fr 2fr;
+}
+.one .comp input{
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  transition: 0.2s all linear;
+}
+.one .comp{
+  font-size: 1.5vw !important;
+}
+.one .btn , .three button{
+  background-color: #EE276A;
+  color: white;
+  border:none;
+  padding:1vw;
+  font-size:1.5vw;
+  cursor: pointer;
+}
+.one ::placeholder{
+  font-size: 1vw;
+}
+@media screen and (max-width:700px) {
+  .one .comp{
+    font-size: 2.5vw !important;
+  }
+  .one .ff div{
+    font-size: 2.5vw;
+    width:40%;
+  }
+  .one ::placeholder{
+    font-size: 3vw;
+  }
+  .undraw{
+    height: 12rem;
+    width: 10rem;
+    right: -5%;
+  }
+}
+
+
+
+.two .ff{
+  display: flex;
+  justify-content:space-evenly;
+}
+.two .ques{
+  font-size: 1.5vw;
+  text-align: left;
+  padding:2%;
+  width:40%
+}
+.two .comp , .four .comp{
+  font-size: 1.5vw;
+  padding:2%;
+  width:40%
+}
+.two .comp span , .four .comp span{
+  display:block;
+  color:grey;
+}
+.two .comp img{
+  width:40%;
+}
+.two h2{
+  font-size:3vw;
+}
+.two h4{
+  font-size:2vw;
+}
+
+@media screen and (max-width:500px) {
+  .two .ques , .two .comp{
+    font-size:2vw;
+  }
+}.three{
+  text-align: center;
+  padding:2vw;
+  background-color: #F5F6F8;
+}
+.three .ff{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+.three .ff div{
+  font-size:2vw;
+  background-color:#65BD3F;
+  color: white;
+  padding:1vw;
+}
+.three .ff div i{
+  font-size:3vw;
+}
+.three button{
+  margin-top:2vw;
+  width:40%;
+}
+
+
+.four{
+  padding: 2vw;
+  display: flex;
+  background-color:#62A845;
+  color: white;
+}
+.four .comp span{
+  margin-top: 2vw;
+  display:block;
+  color:white;
+  font-weight: 600;
+}
+.four img{
+  width:30%;
+}
+
+
+.five{
+  text-align: left;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  background-color:#2E2C39;
+  font-size: 1.5vw;
+}
+.five p p{
+  font-weight: 900;
+}
+.five div{
+  width: 30%;
+}
